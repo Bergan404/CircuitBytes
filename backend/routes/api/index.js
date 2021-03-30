@@ -1,43 +1,19 @@
 const router = require('express').Router();
 const sessionRouter = require('./session.js');
-const usersRouter = require('./users.js');
+const userRouter = require('./user.js')
+const postRouter = require('./post.js')
+const cartRouter = require('./shoppingCart.js')
+const deleteRouter = require('./delete.js')
 
 router.use('/session', sessionRouter);
 
-router.use('/users', usersRouter);
+router.use('/users', userRouter);
 
-// GET /api/set-token-cookie
-const asyncHandler = require('express-async-handler');
-const { setTokenCookie } = require('../../utils/auth.js');
-const { User } = require('../../db/models');
-router.get('/set-token-cookie', asyncHandler(async (req, res) => {
-  const user = await User.findOne({
-      where: {
-        username: 'Demo-lition'
-      },
-    })
-  setTokenCookie(res, user);
-  return res.json({ user });
-}));
+router.use('/posts', postRouter);
 
-// GET /api/restore-user
-const { restoreUser } = require('../../utils/auth.js');
-router.get(
-  '/restore-user',
-  restoreUser,
-  (req, res) => {
-    return res.json(req.user);
-  }
-);
+router.use('/shopping-cart', cartRouter)
 
-// GET /api/require-auth
-const { requireAuth } = require('../../utils/auth.js');
-router.get(
-  '/require-auth',
-  requireAuth,
-  (req, res) => {
-    return res.json(req.user);
-  }
-);
+router.use('/posts/delete', deleteRouter)
+
 
 module.exports = router;
