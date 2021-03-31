@@ -1,9 +1,8 @@
 import React from 'react';
-import { useSelector, useDispatch } from 'react-redux';
+import { useSelector} from 'react-redux';
 import CartProperties from '../ShoppingCartComponents/index'
 
 function ShoppingCart() {
-    // const dispatch = useDispatch()
     const addPost = useSelector(state => state.addPost)
     const items = useSelector(state => state.addPost)
     console.log(items, "------------------------")
@@ -14,7 +13,9 @@ function ShoppingCart() {
             total = total + +itemPrice
             return total
         })
+    console.log(itemTotal)
     }
+
 
     if (!Array.isArray(addPost)) {
         return null

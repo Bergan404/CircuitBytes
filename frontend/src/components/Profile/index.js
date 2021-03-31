@@ -1,5 +1,5 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { getThePost } from "../../store/CreatePosts";
 import Post from '../Post/index';
@@ -15,7 +15,7 @@ function ProfilePage() {
         if (sessionUser) {
             dispatch(getThePost(sessionUser.id))
         }
-    }, [sessionUser])
+    }, [sessionUser, dispatch])
     if (!Array.isArray(posts)) {
         return null
     } else {

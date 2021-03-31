@@ -1,7 +1,7 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { getThePost, makePost } from "../../store/CreatePosts";
+import { getThePost } from "../../store/CreatePosts";
 import PostProperties from '../PostProperties/index';
 import CommentsProperties from '../Comments/Comments'
 
@@ -16,13 +16,13 @@ function PostOpened(props) {
         if (sessionUser) {
             dispatch(getThePost(sessionUser.id))
         }
-    }, [sessionUser])
+    }, [sessionUser, dispatch])
     if (!Array.isArray(posts)) {
         return null
     } else {
         const obj = posts.filter((el) => {
             return el.id === id
-        }) [0]
+        })[0]
         return (
             <>
                 <div className="post-opened" >

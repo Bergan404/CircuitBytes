@@ -5,7 +5,7 @@ import { createPost } from "../../store/CreatePosts"
 
 import "./CreatePost.css";
 
-function Posts({ }) {
+function Posts() {
     const dispatch = useDispatch()
     const history = useHistory();
 
