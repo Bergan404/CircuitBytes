@@ -1,55 +1,73 @@
-.nav-background {
-    background-color: #1a1a1d;
-    list-style: none;
-    text-align: left;
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--darkgray);
     padding: 10px 0 20px 0;
     margin-top: 0px;
     margin-bottom: 0px;
 }
-li {
-    padding-right: 12px;
-    padding-left: 12px;
-}
-
 .home-button {
     /* this is for the "make it real" */
     text-decoration: none;
-    color: #f76c6c;
-    font-size: 30px;
+    color: var(--lightblue);
+    font-size: 50px;
     padding: 10px 6px 6px 6px;
 }
 .home-button:hover {
-    color: #c95555;
+    color: var(--blue);
 }
-
 .cart {
-    float: right;
-    position: relative;
-    bottom: 35px;
-    right: 5px;
-    padding-left: 0px;
-    width: 40px;
-    height: 35px;
+    margin-right: 20px;
+    margin-bottom: 10px;
 }
 .fa-primary {
-    color: #f76c6c;
-    width: 40px;
-    height: 35px;
+    color: var(--lightblue);
+    margin-top: 10px;
 }
 .fa-primary:hover {
-    color: #f8e9a1;
+    color: white;
 }
-/* .cart img {
+.fa-shopping-cart {
     width: 40px;
-    height: 35px;
-} */
+    position: relative;
+    top: 10px;
 
+}
+.login-signup {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    background-color: var(--blue);
+    border-radius: 20px;
+    margin-right: 10px;
+
+}
+.login-signup:hover {
+    background-color: var(--purple);
+}
 .profile {
+
+}
+.create-post {
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    font-size: 20px;
+}
+.create-post:hover {
+    color: var(--lightblue);
+    cursor: pointer;
+    background-color: rgba(78, 78, 80, 0);
+    border-radius: 24px 24px 24px 24px;
+}
+
+/* .profile {
     float: right;
     position: relative;
     right: 115px;
     top: 3px;
-    /* padding: 5px; */
+
     margin-left: 10px;
     font-size: 30px;
     border: none;
@@ -94,4 +112,4 @@ li {
     cursor: pointer;
     background-color: rgba(78, 78, 80, 0);
     border-radius: 24px 24px 24px 24px;
-}
+} */

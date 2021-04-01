@@ -1,1 +1,14 @@
 /* TODO Add site wide styles */
+:root {
+    --darkpurple: #0C0032;
+    --lightpurple: #190061;
+    --purple: #240090;
+    --blue: #3500D3;
+    --lightblue: #002fff;
+    --darkgray: #282828;
+}
+
+body {
+    /* background-color: black; */
+    font-family: 'Courier New', Courier, monospace;
+}
