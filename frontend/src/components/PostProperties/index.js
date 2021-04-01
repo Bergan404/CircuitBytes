@@ -47,7 +47,7 @@ const PostProperties = () => {
         return (
             <>
                 <div className="big-post" >
-                    <div>{posts.listPicture}</div>
+                    <img className="picture" src={posts.listPicture} alt="postingPicture"></img>
                     <h1 className="post-h1" >{posts.postTitle}</h1>
                     <div className="the-price" >{posts.price}</div>
                     <button className="add-to-cart-button" onClick={handleCartAdd} >Add To Cart</button>

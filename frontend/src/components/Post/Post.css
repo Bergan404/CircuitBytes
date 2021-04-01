@@ -1,8 +1,10 @@
 .post-content {
     /* padding: 20px; */
     margin: 10px 10px 10px 10px;
-    background-color: #f76c6c;
+    /* background-color: var(--blue); */
+    background-color: lavender;
     font-size: 17px;
+    color: white;
     width: 200px;
     height: 100px;
     float: left;
@@ -10,7 +12,8 @@
 }
 .post-content a {
     text-decoration: none;
-    color: black;
+    /* color: white; */
+    /* color: black; */
     /* padding: 20px; */
 }
 .post-content a div {
