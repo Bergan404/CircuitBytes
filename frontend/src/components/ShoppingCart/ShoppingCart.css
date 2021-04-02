@@ -1,0 +1,12 @@
+.cart-posts-outer-div {
+    text-align: center;
+
+}
+.header {
+    color: white;
+}
+.line {
+    border: 1px solid white;
+    width: 300px;
+    margin: 20px auto 10px auto;
+}

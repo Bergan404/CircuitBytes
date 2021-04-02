@@ -16,11 +16,3 @@
     background-color: var(--purple);
     cursor: pointer;
 }
-.cart-posts-outer-div {
-    text-align: center;
-}
-.line {
-    border: 1px solid white;
-    width: 300px;
-    margin: 20px auto 10px auto;
-}

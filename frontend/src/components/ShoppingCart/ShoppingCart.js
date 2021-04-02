@@ -2,6 +2,8 @@ import React from 'react';
 import { useSelector} from 'react-redux';
 import CartProperties from '../ShoppingCartComponents/index'
 
+import './ShoppingCart.css'
+
 function ShoppingCart() {
     const addPost = useSelector(state => state.addPost)
     const items = useSelector(state => state.addPost)
@@ -26,10 +28,10 @@ function ShoppingCart() {
         return (
             <>
                 <div className="cart-posts-outer-div" >
-                    <h1>Shopping Cart</h1>
+                    <h1 className="header">Shopping Cart</h1>
                     {ele}
                     <div className="line" />
-                    <h3>Total: ${total}</h3>
+                    <h3 className="header">Total: ${total}</h3>
                 </div>
             </>
         );
