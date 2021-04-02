@@ -8,10 +8,9 @@ function Categories() {
     return (
         <div className="categories">
             <ul>
-                <li><NavLink exact to="/">Clothing & Shoes</NavLink></li>
-                <li><NavLink exact to="/">Home & Living</NavLink></li>
-                <li><NavLink exact to="/">Arts & Collectibles</NavLink></li>
-                <li><NavLink exact to="/">Toys & Entertainment</NavLink></li>
+                <li><NavLink exact to="/">Electronics & Hardware</NavLink> |</li>
+                <li><NavLink exact to="/">Programs & Applications</NavLink> |</li>
+                <li><NavLink exact to="/">3D Prints & Downloads</NavLink></li>
             </ul>
         </div>
     );

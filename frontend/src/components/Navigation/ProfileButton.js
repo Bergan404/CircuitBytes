@@ -17,7 +17,7 @@ function ProfileButton({ user }) {
         <NavLink className="create-post" to="/create-post">Create Post</NavLink>
         <NavLink to={`/profile/${username}`}>
           <button className="profile">
-            <i className="fas fa-user-circle" />
+            Profile
           </button>
         </NavLink>
           <button className="logout-button" onClick={logout}>Log Out</button>

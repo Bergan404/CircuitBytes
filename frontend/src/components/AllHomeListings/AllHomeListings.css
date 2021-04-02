@@ -1,10 +1,11 @@
-/* .header-h2 {
+.header-h2 {
     padding-left: 20px;
 }
 .all-home-listings {
     width: 1200px;
     margin: 0 auto 0 auto;
     text-align: center;
+    color: white;
 }
 .all-home-posts {
     text-align: center;
@@ -14,4 +15,5 @@
     text-align: left;
     width: 1200px;
     margin: 0 auto 0 auto;
-} */
+    color: white;
+}

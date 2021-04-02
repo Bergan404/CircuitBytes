@@ -2,25 +2,28 @@
     /* padding: 20px; */
     margin: 10px 10px 10px 10px;
     /* background-color: var(--blue); */
-    background-color: lavender;
+    background-color: var(--blue);
     font-size: 17px;
     color: white;
     width: 200px;
-    height: 100px;
     float: left;
     /* flex-basis: 100px; */
 }
 .post-content a {
     text-decoration: none;
-    /* color: white; */
+    color: white;
+    font-size: 15px;
     /* color: black; */
     /* padding: 20px; */
 }
 .post-content a div {
-
     padding: 10px;
 }
 .post-content:hover {
-    background-color: white;
+    background-color: var(--purple);
     cursor: pointer;
+}
+.homepage-picture {
+    width: 200px;
+    height: 150px;
 }

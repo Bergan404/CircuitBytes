@@ -4,6 +4,7 @@
 .post-header {
     text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
 .post-form {
     font-size: 25px;
@@ -11,7 +12,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     padding: 20px;
-    background-color: #f76c6c;
+    background-color: var(--lightpurple);
     border: 1px solid;
     border-radius: 10px 10px ;
     box-shadow: 3px 7px 5px #14161a;
@@ -23,6 +24,7 @@
     padding: 7px;
     font-weight: bold;
     font-size: 27px;
+    color: white;
 }
 .normal-style {
     border: 1px solid;
@@ -74,7 +76,7 @@
 }
 .create-post-submit {
     color: white;
-    background-color: #4e4e50;
+    background-color: var(--darkgray);
     padding: 10px;
     border-radius: 5px 5px;
     margin: 10px 10px 10px 10px;
@@ -83,13 +85,13 @@
     font-weight: bold;
 }
 .create-post-submit:hover {
-    background-color: #1a1a1d;
-    color: #f76c6c;
+    background-color: white;
+    color: var(--lightblue);
     cursor: pointer;
 }
 .cancel-post {
     color: white;
-    background-color: #4e4e50;
+    background-color: var(--darkgray);
     padding: 10px;
     border-radius: 5px 5px;
     margin: 10px 10px 10px 10px;
@@ -98,12 +100,27 @@
     font-weight: bold;
 }
 .cancel-post:hover {
-    background-color: #1a1a1d;
-    color: #f76c6c;
+    background-color: white;
+    color: var(--lightblue);
     cursor: pointer;
 }
 .errors {
     list-style: none;
     color: white;
     margin-left: 170px;
+}
+.myfile {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border-style: none;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    font-size: 20px;
+    width: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }

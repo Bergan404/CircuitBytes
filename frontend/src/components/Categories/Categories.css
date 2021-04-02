@@ -4,12 +4,15 @@
 }
 .categories li {
     display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
 }
 .categories a {
     text-decoration: none;
-    color: #f76c6c;
+    color: white;
     font-size: 18px;
 }
 .categories a:hover {
-    color: #f8e9a1;
+    color: var(--blue);
 }

@@ -1,9 +1,11 @@
 .profile-layout {
     text-align: center;
     margin: 0 auto 0 auto;
+    color: white;
 }
 .welcome-letter {
     text-align: center;
+    color: white;
 }
 .profile-outer {
     width: 700px;

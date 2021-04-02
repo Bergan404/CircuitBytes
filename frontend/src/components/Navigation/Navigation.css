@@ -46,9 +46,6 @@
 .login-signup:hover {
     background-color: var(--purple);
 }
-.profile {
-
-}
 .create-post {
     text-decoration: none;
     color: white;
@@ -61,55 +58,31 @@
     background-color: rgba(78, 78, 80, 0);
     border-radius: 24px 24px 24px 24px;
 }
-
-/* .profile {
-    float: right;
-    position: relative;
-    right: 115px;
-    top: 3px;
-
-    margin-left: 10px;
-    font-size: 30px;
-    border: none;
-    background: none;
-    font-weight: bold;
-    color: #f76c6c;
-}
-.profile:hover {
-    color: #e95014;
-    cursor: pointer;
-}
-
 .logout-button {
-    color: #f76c6c;
-    float: right;
-    position: relative;
-    padding: 5px;
-    top: 7px;
-    right: 5px;
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 3px;
     border: none;
-    background: none;
-    font-weight: bold;
+    border-radius: 14px;
+    background: var(--lightpurple);
+    font-family: 'Courier New', Courier, monospace;
 }
 .logout-button:hover {
-    color: #e95014;
+    color: white;
     cursor: pointer;
-    background-color: rgba(78, 78, 80, 0);
+    background: var(--darkpurple);
     border-radius: 24px 24px 24px 24px;
 }
-.create-post {
-    color: #f76c6c;
-    float: right;
-    position: relative;
-    top: 6px;
-    right: 47px;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 5px;
+.profile {
+    margin-right: 10px;
+    font-size: 20px;
+    border: none;
+    background: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
-.create-post:hover {
-    color: #f8e9a1;
+.profile:hover {
+    color: var(--lightblue);
     cursor: pointer;
-    background-color: rgba(78, 78, 80, 0);
-    border-radius: 24px 24px 24px 24px;
-} */
+}

@@ -9,6 +9,7 @@ const CartProperties = (cart) => {
         <>
             <div className="cart-posts" >
                 <NavLink to={`/post/${cart.props.id}`}>
+                    <img className="homepage-picture" src={cart.props.listPicture} />
                     <div>{cart.props.postTitle}</div>
                     <div>{cart.props.price}</div>
                 </NavLink>

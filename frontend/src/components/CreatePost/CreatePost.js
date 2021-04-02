@@ -93,7 +93,7 @@ function Posts() {
                         /> Digital Download
                     </div>
                 </label>
-                <label>
+                {/* <label>
                     Listing Picture
                     <input
                         className="normal-style"
@@ -101,6 +101,16 @@ function Posts() {
                         value={listPicture}
                         onChange={(e) => setListPicture(e.target.value)}
                         required
+                    />
+                </label> */}
+                <label for="myfile">Select a Image:
+                    <input
+                    type="file"
+                    className="myfile"
+                    value={listPicture}
+                    name="myfile"
+                    onChange={(e) => setListPicture(e.target.value)}
+                    required
                     />
                 </label>
                 <label className="price-is-right" >
