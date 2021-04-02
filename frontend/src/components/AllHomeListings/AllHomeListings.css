@@ -1,5 +1,7 @@
 .header-h2 {
     padding-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
 }
 .all-home-listings {
     width: 1200px;

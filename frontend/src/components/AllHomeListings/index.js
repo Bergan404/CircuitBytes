@@ -17,9 +17,9 @@ function AllHomeListing() {
         return (
             <>
                 {/* <h2 className="header-h2">All Listings</h2> */}
-                <h2 className="header-h2">  {check !== undefined?allPosts: "Login To View Posts"}</h2>
-                    <div className="all-home-posts" >
-                        {check !== undefined?allPosts: null}
+                {/* <h2 className="header-h2">  {check !== undefined?allPosts: "Login To View Posts"}</h2> */}
+                    <div className="all-home-posts header-h2" >
+                        {check !== undefined?allPosts: "Login to View Posts"}
                     </div>
             </>
         );
