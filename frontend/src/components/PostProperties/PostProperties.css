@@ -1,10 +1,11 @@
 .big-post {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding: 20px;
+    color: white;
 }
 .post-opened {
     margin: 20px auto 10px auto;
-    background-color: #f76c6c;
+    background-color: var(--blue);
     width: 600px;
 }
 .post-h1 {
@@ -25,7 +26,7 @@
 }
 .add-to-cart-button:hover {
     background-color: #1a1a1d;
-    color: #f76c6c;
+    color: var(--lightblue);
     cursor: pointer;
 }
 .the-price {
@@ -44,16 +45,17 @@
 }
 .delete-button:hover {
     background-color: #1a1a1d;
-    color: #f76c6c;
+    color: var(--lightblue);
     cursor: pointer;
 }
 .comments {
     margin: 20px auto 10px auto;
-    background-color: #f76c6c;
+    background-color: var(--purple);
     width: 600px;
 }
 .comments h2 {
     padding: 10px;
+    color: white;
 }
 .comment-box {
     margin: 10px 25px 10px 25px;
@@ -78,7 +80,7 @@
 }
 .review-button:hover {
     background-color: #1a1a1d;
-    color: #f76c6c;
+    color: white;
     cursor: pointer;
 }
 .picture {
