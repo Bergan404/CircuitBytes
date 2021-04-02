@@ -43,6 +43,14 @@
     border-radius: 5px;
     margin: 10px 10px 10px 10px;
 }
+.login-button:hover {
+    cursor: pointer;
+    background-color: var(--lightblue);
+}
+.login-demo:hover {
+    cursor: pointer;
+    background-color: var(--lightblue);
+}
 .login ul {
     color: red;
     list-style: none;
