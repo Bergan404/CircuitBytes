@@ -24,7 +24,7 @@ function Navigation({ isLoaded }){
   return (
     <div className="nav-container">
         <div>
-          <img className="logo" src='./LogoMakr-7mEEtz.png' alt="Logo-Picture" />
+          <img className="logo" src='./LogoMakr-7mEEtz.png' alt="Logo" />
           <NavLink className="home-button" exact to="/">CircuitBytes</NavLink>
         </div>
         <div className="cart">

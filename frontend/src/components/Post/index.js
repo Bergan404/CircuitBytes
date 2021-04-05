@@ -9,7 +9,7 @@ const Post = (props) => {
         <>
             <div className="post-content">
                 <NavLink to={`/post/${props.props.id}`}>
-                    <img className="homepage-picture" src={props.props.listPicture} />
+                    <img className="homepage-picture" src={props.props.listPicture}  alt="posts" />
                     <div>{props.props.postTitle}</div>
                     <div>{props.props.price}</div>
                 </NavLink>
