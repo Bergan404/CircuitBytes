@@ -1,14 +1,16 @@
 import { useDispatch, useSelector } from 'react-redux';
-import {NavLink} from 'react-router-dom'
+import {NavLink, Redirect, useHistory} from 'react-router-dom'
 
 import * as sessionActions from '../../store/session';
 
 function ProfileButton({ user }) {
+  const history = useHistory()
   const dispatch = useDispatch();
   const {username} = useSelector(state => state.session.user)
 
   const logout = (e) => {
     // e.preventDefault();
+    history.push("/")
     window.location.reload()
     dispatch(sessionActions.logout());
   };
