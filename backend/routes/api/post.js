@@ -15,7 +15,7 @@ const validatePost = [
 
 router.get('/:id', asyncHandler(async (req, res) => {
     let id = Number(req.params.id)
-    const posts = await db.Post.findAll({where: {userId: id}});
+    const posts = await db.post.findAll({where: {userId: id}});
     res.json(posts)
 }))
 
