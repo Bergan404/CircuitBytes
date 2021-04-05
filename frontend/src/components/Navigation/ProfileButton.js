@@ -8,7 +8,8 @@ function ProfileButton({ user }) {
   const {username} = useSelector(state => state.session.user)
 
   const logout = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
+    window.location.reload()
     dispatch(sessionActions.logout());
   };
 
